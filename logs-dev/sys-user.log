@@ -1,0 +1,6 @@
+2023-05-30 21:47:50.386 [main] INFO  sys-user - [main,19] - 启动之后 - Logback配置生效，所以输出Info日志
+2023-05-30 21:47:50.386 [main] INFO  sys-user - [main,21] - 脱敏测试：
+2023-05-30 21:47:50.456 [main] INFO  sys-user - [main,25] - [{"id":1,"name":"张三","personName":"李四"}]
+2023-05-30 21:52:33.111 [main] INFO  sys-user - [main,19] - 启动之后 - Logback配置生效，所以输出Info日志
+2023-05-30 21:52:34.439 [main] INFO  sys-user - [main,21] - 脱敏测试：
+2023-05-30 21:52:35.277 [main] INFO  sys-user - [main,25] - [{"id":1,"name":"*三","personName":"*四"}]

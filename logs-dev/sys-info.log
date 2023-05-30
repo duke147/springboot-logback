@@ -1,0 +1,12 @@
+2023-05-30 21:47:49.804 [main] INFO  c.e.s.SpringbootLogbackApplication - [logStarting,55] - Starting SpringbootLogbackApplication using Java 1.8.0_191 on wangfugui.lan with PID 56235 (/Users/wangfugui/Downloads/dev/java/git/github/springboot-logback/target/classes started by wangfugui in /Users/wangfugui/Downloads/dev/java/git/github/springboot-logback)
+2023-05-30 21:47:49.806 [main] INFO  c.e.s.SpringbootLogbackApplication - [logStartupProfileInfo,639] - The following profiles are active: dev
+2023-05-30 21:47:50.381 [main] INFO  c.e.s.SpringbootLogbackApplication - [logStarted,61] - Started SpringbootLogbackApplication in 1.336 seconds (JVM running for 2.396)
+2023-05-30 21:47:50.386 [main] INFO  sys-user - [main,19] - 启动之后 - Logback配置生效，所以输出Info日志
+2023-05-30 21:47:50.386 [main] INFO  sys-user - [main,21] - 脱敏测试：
+2023-05-30 21:47:50.456 [main] INFO  sys-user - [main,25] - [{"id":1,"name":"张三","personName":"李四"}]
+2023-05-30 21:52:08.831 [main] INFO  c.e.s.SpringbootLogbackApplication - [logStarting,55] - Starting SpringbootLogbackApplication using Java 1.8.0_191 on wangfugui.lan with PID 57554 (/Users/wangfugui/Downloads/dev/java/git/github/springboot-logback/target/classes started by wangfugui in /Users/wangfugui/Downloads/dev/java/git/github/springboot-logback)
+2023-05-30 21:52:28.852 [main] INFO  c.e.s.SpringbootLogbackApplication - [logStartupProfileInfo,639] - The following profiles are active: dev
+2023-05-30 21:52:30.739 [main] INFO  c.e.s.SpringbootLogbackApplication - [logStarted,61] - Started SpringbootLogbackApplication in 22.4 seconds (JVM running for 23.028)
+2023-05-30 21:52:33.111 [main] INFO  sys-user - [main,19] - 启动之后 - Logback配置生效，所以输出Info日志
+2023-05-30 21:52:34.439 [main] INFO  sys-user - [main,21] - 脱敏测试：
+2023-05-30 21:52:35.277 [main] INFO  sys-user - [main,25] - [{"id":1,"name":"*三","personName":"*四"}]

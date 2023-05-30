@@ -7,8 +7,10 @@
     <property name="log.basePath" value="logs-dev"/>
     <!-- 日志存放路径 -->
     <property name="log.path" value="/" />
+    <!-- 自定义日志转换规则 -->
+    <conversionRule conversionWord="mask" converterClass="com.example.springbootlogback.MaskingConverter" />
     <!-- 不同的appender，统一日志输出格式 -->
-    <property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{20} - [%method,%line] - %msg%n" />
+    <property name="log.pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{20} - [%method,%line] - %mask%n" />
 
     <!-- 控制台输出 -->
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
